@@ -8,7 +8,7 @@ void push()
 
 
 
-    if( top>max)
+    if( top==max-1)
     { 
         printf("\nTHE STACK IS FULL \n");
     } else
@@ -43,9 +43,16 @@ int pop()
 } 
 void printstack()
 { 
-    for(int i=top;i>=0; i--)
-    printf("%d ", s[i]);
 
+if(top==-1){
+	printf("STACK IS EMPTY! can't print data");
+}
+else
+{
+	int i;
+    for( i=top;i>=0; i--)
+    printf("%d ", s[i]);
+}
 } 
  
  

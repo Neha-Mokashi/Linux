@@ -7,6 +7,8 @@ int main()
    int ar1[3];
    int ar2[3];
    
+
+	int i,j;
    arc[0]=ar1;
    arc[1]=ar2;
    
@@ -19,9 +21,9 @@ int main()
    ar2[2]=17;
    printf("helo world\n");
    
-   for(int i=0;i<2;i++)
+   for( i=0;i<2;i++)
    {
-       for(int j=0;j<3;j++)
+       for( j=0;j<3;j++)
        {
            printf("%d\t",arc[i][j]);
        }
