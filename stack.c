@@ -43,6 +43,7 @@ int pop()
 } 
 void printstack()
 { 
+<<<<<<< HEAD
 
 if(top==-1){
 	printf("STACK IS EMPTY! can't print data");
@@ -54,6 +55,20 @@ else
     printf("%d ", s[i]);
 }
 } 
+=======
+    if(top==-1)
+    {
+        printf("STACK IS EMPTY! can't print\n");
+    }    
+else{
+    
+    int i;
+    for( i=top;i>=0; i--)
+    printf("%d ", s[i]);
+
+   } 
+}
+>>>>>>> 8664703823bc148218bd1a5722114d71e4073257
  
  
 int main()
